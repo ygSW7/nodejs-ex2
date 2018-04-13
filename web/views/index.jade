@@ -1,0 +1,11 @@
+html
+  head
+    title C++ on the Web
+  body
+    h1 Strategies
+
+    ol
+    each type in routes
+        li
+            a(href="/"+type.title)= type.title
+            .descrip= type.description

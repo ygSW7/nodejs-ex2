@@ -1,0 +1,619 @@
+
+Environment: 
+	DEV_MODE=false
+	NODE_ENV=production
+	DEBUG_PORT=5858
+Launching via npm...
+npm info it worked if it ends with ok
+npm info using npm@2.15.1
+npm info using node@v4.6.2
+npm info prestart cpp-nodejs@0.3.0
+npm info start cpp-nodejs@0.3.0
+
+> cpp-nodejs@0.3.0 start /opt/app-root/src
+> node index.js
+
+module.js:327
+    throw err;
+    ^
+
+Error: Cannot find module 'temp'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/opt/app-root/src/index.js:4:12)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+
+npm info cpp-nodejs@0.3.0 Failed to exec start script
+npm ERR! Linux 3.10.0-693.15.2.el7.x86_64
+npm ERR! argv "/opt/rh/rh-nodejs4/root/usr/bin/node" "/opt/rh/rh-nodejs4/root/usr/bin/npm" "run" "-d" "start"
+npm ERR! node v4.6.2
+npm ERR! npm  v2.15.1
+npm ERR! code ELIFECYCLE
+npm ERR! cpp-nodejs@0.3.0 start: `node index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the cpp-nodejs@0.3.0 start script 'node index.js'.
+npm ERR! This is most likely a problem with the cpp-nodejs package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node index.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs cpp-nodejs
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR! 
+npm ERR!     npm owner ls cpp-nodejs
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /opt/app-root/src/npm-debug.log
+
+
+
+
+
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git push origin master
+Everything up-to-date
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git add .
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git commit -m "test 5"
+[master 1c3a4c9] test 5
+ 2 files changed, 35 insertions(+), 31 deletions(-)
+ rewrite package.json (81%)
+ copy package.json => packageCPP.json (100%)
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git push origin master
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 242 bytes | 121.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ygSW7/nodejs-ex.git
+   4dcd08e..1c3a4c9  master -> master
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git add .
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git commit -m "test 4"
+[master 475aaf1] test 4
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ rename server1.js => server.js (100%)
+ rename server.js => serverCPP.js (100%)
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git commit -m "test 5"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git push origin master
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 274 bytes | 137.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ygSW7/nodejs-ex.git
+   1c3a4c9..475aaf1  master -> master
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>node index
+Listening on 5000
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+^C
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git add .
+warning: LF will be replaced by CRLF in packageOrigin.json.
+The file will have its original line endings in your working directory.
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git commit -m "test 6"
+[master 6a06c46] test 6
+ 5 files changed, 122 insertions(+), 216 deletions(-)
+ rewrite index.js (98%)
+ rename packageCPP.json => package.json (100%)
+ rename package.json => packageOrigin.json (100%)
+ delete mode 100644 server.js
+ copy index.js => serverOrigin.js (100%)
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git push origin master
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 292 bytes | 146.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ygSW7/nodejs-ex.git
+   475aaf1..6a06c46  master -> master
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc rsh
+error: rsh requires a single Pod to connect to
+See 'oc rsh -h' for help and examples.
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc rsh -h
+Open a remote shell session to a container
+
+This command will attempt to start a shell session in a pod for the specified resource. It works
+with pods, deployment configs, deployments, jobs, daemon sets, replication controllers and replica
+sets. Any of the aforementioned resources (apart from pods) will be resolved to a ready pod. It will
+default to the first container if none is specified, and will attempt to use '/bin/sh' as the
+default shell. You may pass any flags supported by this command before the resource name, and an
+optional command after the resource name, which will be executed instead of a login shell. A TTY
+will be automatically allocated if standard input is interactive - use -t and -T to override. A TERM
+variable is sent to the environment where the shell (or command) will be executed. By default its
+value is the same as the TERM variable from the local environment; if not set, 'xterm' is used.
+
+Note, some containers may not include a shell - use 'oc exec' if you need to run commands directly.
+
+Usage:
+  oc rsh [options] POD [COMMAND]
+
+Examples:
+  # Open a shell session on the first container in pod 'foo'
+  oc rsh foo
+
+  # Run the command 'cat /etc/resolv.conf' inside pod 'foo'
+  oc rsh foo cat /etc/resolv.conf
+
+  # See the configuration of your internal registry
+  oc rsh dc/docker-registry cat config.yml
+
+  # Open a shell session on the container named 'index' inside a pod of your job
+  # oc rsh -c index job/sheduled
+
+Options:
+  -c, --container='': Container name; defaults to first container
+  -T, --no-tty=false: Disable pseudo-terminal allocation
+      --shell='/bin/sh': Path to the shell command
+      --timeout=10: Request timeout for obtaining a pod from the server; defaults to 10 seconds
+  -t, --tty=false: Force a pseudo-terminal to be allocated
+
+Use "oc options" for a list of global command-line options (applies to all commands).
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc rsh test5-1-zpcvs
+Error from server (Forbidden): User "ygsw7" cannot get pods in the namespace "exampe1": User "ygsw7" cannot get pods in project "exampe1" (get pods test5-1-zpcvs)
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc rsh test5-1-build
+Error from server (Forbidden): User "ygsw7" cannot get pods in the namespace "exampe1": User "ygsw7" cannot get pods in project "exampe1" (get pods test5-1-build)
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc services
+Error: unknown command "services" for "oc"
+Run 'oc --help' for usage.
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>node index
+Listening on 5000
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+^C
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git add .
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git commit -m "test 7"
+[master bcb288e] test 7
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 298 bytes | 149.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ygSW7/nodejs-ex.git
+   6a06c46..bcb288e  master -> master
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc status
+Error from server (Forbidden): User "ygsw7" cannot get projects.project.openshift.io in the namespace "exampe1": User "ygsw7" cannot get project "exampe1" (get projects.project.openshift.io exampe1)
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>path
+PATH=C:\Python27\;C:\Python27\Scripts;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\blp\API;C:\blp\API\dde;C:\Program Files (x86)\Windows Live\Shared;C:\Users\YG\Documents\OpenCV\opencv\build\x86\vc10\bin;C:\Users\YG\Documents\OpenCV\opencv\build\x64\vc10\bin;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\YG\AppData\Local\Programs\Python\Python36-32\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\HashiCorp\Vagrant\bin;C:\Ruby193\bin;C:\Ruby24-x64\bin;"C:\Users\YG\AppData\Local\Programs\Python\Python36-32\Scripts\;";C:\Users\YG\AppData\Local\Programs\Python\Python36-32\;C:\Users\YG\AppData\Local\Microsoft\WindowsApps;C:\blp\DAPI;C:\blp\DAPI\DDE;C:\Program Files\Heroku\bin;C:\Users\YG\AppData\Roaming\npm;C:\Users\YG\Documents\OpenShift
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc
+OpenShift Client
+
+This client helps you develop, build, deploy, and run your applications on any OpenShift or
+Kubernetes compatible platform. It also includes the administrative commands for managing a cluster
+under the 'adm' subcommand.
+
+To create a new application, login to your server and then run new-app:
+
+  oc login https://mycluster.mycompany.com
+  oc new-app centos/ruby-22-centos7~https://github.com/openshift/ruby-ex.git
+  oc logs -f bc/ruby-ex
+
+This will create an application based on the Docker image 'centos/ruby-22-centos7' that builds the
+source code from GitHub. A build will start automatically, push the resulting image to the registry,
+and a deployment will roll that change out in your project.
+
+Once your application is deployed, use the status, describe, and get commands to see more about the
+created components:
+
+  oc status
+  oc describe deploymentconfig ruby-ex
+  oc get pods
+
+To make this application visible outside of the cluster, use the expose command on the service we
+just created to create a 'route' (which will connect your application over the HTTP port to a public
+domain name).
+
+  oc expose svc/ruby-ex
+  oc status
+
+You should now see the URL the application can be reached at.
+
+To see the full list of commands supported, run 'oc --help'.
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc login registry.starter-us-east-1.openshift.com
+error: json: cannot unmarshal number into Go value of type util.OauthAuthorizationServerMetadata - verify you have provided the correct host and port and that the server is currently running.
+error: json: cannot unmarshal number into Go value of type util.OauthAuthorizationServerMetadata
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc login oc login https://api.starter-us-east-1.openshift.com --token=HxFu7Y8kabuYxRTxmilsEMiBd3YG2jZ3xGZF5BYhc8U
+error: Only the server URL may be specified as an argument
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc login https://api.starter-us-east-1.openshift.com --token=HxFu7Y8kabuYxRTxmilsEMiBd3YG2jZ3xGZF5BYhc8U
+Logged into "https://api.starter-us-east-1.openshift.com:443" as "ygsw7" using the token provided.
+
+You have one project on this server: "nodejs-test5"
+
+Using project "nodejs-test5".
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc status
+In project node-test5 (nodejs-test5) on server https://api.starter-us-east-1.openshift.com:443
+
+http://test5-nodejs-test5.1d35.starter-us-east-1.openshiftapps.com to pod port 8080-tcp (svc/test5)
+  dc/test5 deploys istag/test5:latest <-
+    bc/test5 source builds https://github.com/ygSW7/nodejs-ex#master on openshift/nodejs:4
+    deployment #1 deployed 2 hours ago - 0/1 pods (warning: 32 restarts)
+
+Errors:
+  * pod/test5-1-7zfkk is crash-looping
+
+1 error identified, use 'oc status -v' to see details.
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc status -v
+In project node-test5 (nodejs-test5) on server https://api.starter-us-east-1.openshift.com:443
+
+http://test5-nodejs-test5.1d35.starter-us-east-1.openshiftapps.com to pod port 8080-tcp (svc/test5)
+  dc/test5 deploys istag/test5:latest <-
+    bc/test5 source builds https://github.com/ygSW7/nodejs-ex#master on openshift/nodejs:4
+    deployment #1 deployed 2 hours ago - 0/1 pods (warning: 32 restarts)
+
+Errors:
+  * pod/test5-1-7zfkk is crash-looping
+
+    The container is starting and exiting repeatedly. This usually means the container is unable
+    to start, misconfigured, or limited by security restrictions. Check the container logs with
+
+      oc logs test5-1-7zfkk -c test5
+
+    Current security policy prevents your containers from being run as the root user. Some images
+    may fail expecting to be able to change ownership or permissions on directories. Your admin
+    can grant you access to run containers that need to run as the root user with this command:
+
+      oc adm policy add-scc-to-user anyuid -n nodejs-test5 -z default
+
+
+Info:
+  * pod/test5-1-build has no liveness probe to verify pods are still running.
+    try: oc set probe pod/test5-1-build --liveness ...
+  * dc/test5 has no readiness probe to verify pods are ready to accept traffic or ensure deployment is successful.
+    try: oc set probe dc/test5 --readiness ...
+  * dc/test5 has no liveness probe to verify pods are still running.
+    try: oc set probe dc/test5 --liveness ...
+
+View details with 'oc describe <resource>/<name>' or list everything with 'oc get all'.
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>
+
+
+
+
+
+
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git push origin master
+Everything up-to-date
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git add .
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git commit -m "test 5"
+[master 1c3a4c9] test 5
+ 2 files changed, 35 insertions(+), 31 deletions(-)
+ rewrite package.json (81%)
+ copy package.json => packageCPP.json (100%)
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git push origin master
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 242 bytes | 121.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ygSW7/nodejs-ex.git
+   4dcd08e..1c3a4c9  master -> master
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git add .
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git commit -m "test 4"
+[master 475aaf1] test 4
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ rename server1.js => server.js (100%)
+ rename server.js => serverCPP.js (100%)
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git commit -m "test 5"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git push origin master
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 274 bytes | 137.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ygSW7/nodejs-ex.git
+   1c3a4c9..475aaf1  master -> master
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>node index
+Listening on 5000
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+^C
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git add .
+warning: LF will be replaced by CRLF in packageOrigin.json.
+The file will have its original line endings in your working directory.
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git commit -m "test 6"
+[master 6a06c46] test 6
+ 5 files changed, 122 insertions(+), 216 deletions(-)
+ rewrite index.js (98%)
+ rename packageCPP.json => package.json (100%)
+ rename package.json => packageOrigin.json (100%)
+ delete mode 100644 server.js
+ copy index.js => serverOrigin.js (100%)
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git push origin master
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 292 bytes | 146.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ygSW7/nodejs-ex.git
+   475aaf1..6a06c46  master -> master
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc rsh
+error: rsh requires a single Pod to connect to
+See 'oc rsh -h' for help and examples.
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc rsh -h
+Open a remote shell session to a container
+
+This command will attempt to start a shell session in a pod for the specified resource. It works
+with pods, deployment configs, deployments, jobs, daemon sets, replication controllers and replica
+sets. Any of the aforementioned resources (apart from pods) will be resolved to a ready pod. It will
+default to the first container if none is specified, and will attempt to use '/bin/sh' as the
+default shell. You may pass any flags supported by this command before the resource name, and an
+optional command after the resource name, which will be executed instead of a login shell. A TTY
+will be automatically allocated if standard input is interactive - use -t and -T to override. A TERM
+variable is sent to the environment where the shell (or command) will be executed. By default its
+value is the same as the TERM variable from the local environment; if not set, 'xterm' is used.
+
+Note, some containers may not include a shell - use 'oc exec' if you need to run commands directly.
+
+Usage:
+  oc rsh [options] POD [COMMAND]
+
+Examples:
+  # Open a shell session on the first container in pod 'foo'
+  oc rsh foo
+
+  # Run the command 'cat /etc/resolv.conf' inside pod 'foo'
+  oc rsh foo cat /etc/resolv.conf
+
+  # See the configuration of your internal registry
+  oc rsh dc/docker-registry cat config.yml
+
+  # Open a shell session on the container named 'index' inside a pod of your job
+  # oc rsh -c index job/sheduled
+
+Options:
+  -c, --container='': Container name; defaults to first container
+  -T, --no-tty=false: Disable pseudo-terminal allocation
+      --shell='/bin/sh': Path to the shell command
+      --timeout=10: Request timeout for obtaining a pod from the server; defaults to 10 seconds
+  -t, --tty=false: Force a pseudo-terminal to be allocated
+
+Use "oc options" for a list of global command-line options (applies to all commands).
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc rsh test5-1-zpcvs
+Error from server (Forbidden): User "ygsw7" cannot get pods in the namespace "exampe1": User "ygsw7" cannot get pods in project "exampe1" (get pods test5-1-zpcvs)
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc rsh test5-1-build
+Error from server (Forbidden): User "ygsw7" cannot get pods in the namespace "exampe1": User "ygsw7" cannot get pods in project "exampe1" (get pods test5-1-build)
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc services
+Error: unknown command "services" for "oc"
+Run 'oc --help' for usage.
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>node index
+Listening on 5000
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+input File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\input.csv
+output File C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex\output.csv
+Calculation Done!
+^C
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git add .
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git commit -m "test 7"
+[master bcb288e] test 7
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 298 bytes | 149.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ygSW7/nodejs-ex.git
+   6a06c46..bcb288e  master -> master
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc status
+Error from server (Forbidden): User "ygsw7" cannot get projects.project.openshift.io in the namespace "exampe1": User "ygsw7" cannot get project "exampe1" (get projects.project.openshift.io exampe1)
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>path
+PATH=C:\Python27\;C:\Python27\Scripts;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\blp\API;C:\blp\API\dde;C:\Program Files (x86)\Windows Live\Shared;C:\Users\YG\Documents\OpenCV\opencv\build\x86\vc10\bin;C:\Users\YG\Documents\OpenCV\opencv\build\x64\vc10\bin;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\YG\AppData\Local\Programs\Python\Python36-32\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\HashiCorp\Vagrant\bin;C:\Ruby193\bin;C:\Ruby24-x64\bin;"C:\Users\YG\AppData\Local\Programs\Python\Python36-32\Scripts\;";C:\Users\YG\AppData\Local\Programs\Python\Python36-32\;C:\Users\YG\AppData\Local\Microsoft\WindowsApps;C:\blp\DAPI;C:\blp\DAPI\DDE;C:\Program Files\Heroku\bin;C:\Users\YG\AppData\Roaming\npm;C:\Users\YG\Documents\OpenShift
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc
+OpenShift Client
+
+This client helps you develop, build, deploy, and run your applications on any OpenShift or
+Kubernetes compatible platform. It also includes the administrative commands for managing a cluster
+under the 'adm' subcommand.
+
+To create a new application, login to your server and then run new-app:
+
+  oc login https://mycluster.mycompany.com
+  oc new-app centos/ruby-22-centos7~https://github.com/openshift/ruby-ex.git
+  oc logs -f bc/ruby-ex
+
+This will create an application based on the Docker image 'centos/ruby-22-centos7' that builds the
+source code from GitHub. A build will start automatically, push the resulting image to the registry,
+and a deployment will roll that change out in your project.
+
+Once your application is deployed, use the status, describe, and get commands to see more about the
+created components:
+
+  oc status
+  oc describe deploymentconfig ruby-ex
+  oc get pods
+
+To make this application visible outside of the cluster, use the expose command on the service we
+just created to create a 'route' (which will connect your application over the HTTP port to a public
+domain name).
+
+  oc expose svc/ruby-ex
+  oc status
+
+You should now see the URL the application can be reached at.
+
+To see the full list of commands supported, run 'oc --help'.
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc login registry.starter-us-east-1.openshift.com
+error: json: cannot unmarshal number into Go value of type util.OauthAuthorizationServerMetadata - verify you have provided the correct host and port and that the server is currently running.
+error: json: cannot unmarshal number into Go value of type util.OauthAuthorizationServerMetadata
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc login oc login https://api.starter-us-east-1.openshift.com --token=HxFu7Y8kabuYxRTxmilsEMiBd3YG2jZ3xGZF5BYhc8U
+error: Only the server URL may be specified as an argument
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc login https://api.starter-us-east-1.openshift.com --token=HxFu7Y8kabuYxRTxmilsEMiBd3YG2jZ3xGZF5BYhc8U
+Logged into "https://api.starter-us-east-1.openshift.com:443" as "ygsw7" using the token provided.
+
+You have one project on this server: "nodejs-test5"
+
+Using project "nodejs-test5".
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc status
+In project node-test5 (nodejs-test5) on server https://api.starter-us-east-1.openshift.com:443
+
+http://test5-nodejs-test5.1d35.starter-us-east-1.openshiftapps.com to pod port 8080-tcp (svc/test5)
+  dc/test5 deploys istag/test5:latest <-
+    bc/test5 source builds https://github.com/ygSW7/nodejs-ex#master on openshift/nodejs:4
+    deployment #1 deployed 2 hours ago - 0/1 pods (warning: 32 restarts)
+
+Errors:
+  * pod/test5-1-7zfkk is crash-looping
+
+1 error identified, use 'oc status -v' to see details.
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>oc status -v
+In project node-test5 (nodejs-test5) on server https://api.starter-us-east-1.openshift.com:443
+
+http://test5-nodejs-test5.1d35.starter-us-east-1.openshiftapps.com to pod port 8080-tcp (svc/test5)
+  dc/test5 deploys istag/test5:latest <-
+    bc/test5 source builds https://github.com/ygSW7/nodejs-ex#master on openshift/nodejs:4
+    deployment #1 deployed 2 hours ago - 0/1 pods (warning: 32 restarts)
+
+Errors:
+  * pod/test5-1-7zfkk is crash-looping
+
+    The container is starting and exiting repeatedly. This usually means the container is unable
+    to start, misconfigured, or limited by security restrictions. Check the container logs with
+
+      oc logs test5-1-7zfkk -c test5
+
+    Current security policy prevents your containers from being run as the root user. Some images
+    may fail expecting to be able to change ownership or permissions on directories. Your admin
+    can grant you access to run containers that need to run as the root user with this command:
+
+      oc adm policy add-scc-to-user anyuid -n nodejs-test5 -z default
+
+
+Info:
+  * pod/test5-1-build has no liveness probe to verify pods are still running.
+    try: oc set probe pod/test5-1-build --liveness ...
+  * dc/test5 has no readiness probe to verify pods are ready to accept traffic or ensure deployment is successful.
+    try: oc set probe dc/test5 --readiness ...
+  * dc/test5 has no liveness probe to verify pods are still running.
+    try: oc set probe dc/test5 --liveness ...
+
+View details with 'oc describe <resource>/<name>' or list everything with 'oc get all'.
+
+C:\Users\YG\Documents\sw7\nodeJS\Addon\nodejs-ex>
